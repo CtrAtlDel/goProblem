@@ -6,9 +6,7 @@ import (
 
 func main() {
 	// readAndPrint(1, 2)
-	var s string;
-
-	printString(s)
+	add(1,2,4,5,6)
 }
 
 func exmplReadAndPrint(x, y int) { //Print and Read
@@ -23,10 +21,10 @@ func exmplReadAndPrint(x, y int) { //Print and Read
 
 func exmplAllArguments(numbers ...int) {
 	var sum = 0
-	for _, number := range numbers(
+	for _, number := range numbers {
 		sum += number
-	) 
-§	fmt.Println("sum = ", sum)
+	}
+	fmt.Println("sum = ", sum)
 }
 
 func add(numbers ...int) {
