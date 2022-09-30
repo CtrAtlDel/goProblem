@@ -5,8 +5,7 @@ import (
 	)
 
 func main() {
-	// readAndPrint(1, 2)
-	add(1,2,4,5,6)
+	
 }
 
 func exmplReadAndPrint(x, y int) { //Print and Read
