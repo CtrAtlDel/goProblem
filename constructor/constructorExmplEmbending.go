@@ -1,15 +1,17 @@
 package main
 
-import ("fmt")
+import (
+	"fmt"
+)
 
 type SubBlock struct {
-	str string
+	str     string
 	integer int
 }
 
 type Block struct {
-	block SubBlock
-	str float32
+	block   SubBlock
+	str     float32
 	integer float32
 }
 
