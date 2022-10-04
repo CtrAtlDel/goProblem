@@ -1,11 +1,12 @@
 package main
+
 import (
 	"fmt"
 	"os"
-	)
+)
 
 func main() {
-	
+
 }
 
 func exmplReadAndPrint(x, y int) { //Print and Read
@@ -27,17 +28,17 @@ func exmplAllArguments(numbers ...int) {
 }
 
 func add(numbers ...int) {
-    var sum = 0
-    for _, number := range numbers {
-        sum += number
-    }
-    fmt.Println("sum = ", sum)
+	var sum = 0
+	for _, number := range numbers {
+		sum += number
+	}
+	fmt.Println("sum = ", sum)
 }
 
 func exmplPrintString(str string) string {
 	fmt.Println("String" + str)
 	fmt.Println(&str)
-	return str;
+	return str
 }
 
 func sum(x int, y int) int {
